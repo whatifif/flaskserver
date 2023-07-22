@@ -4,6 +4,10 @@ How to run:
 
 1. Backend: SQLite DB
    1.1 in the backend folder
+   1.1 Make a virtual environment if needed:
+   	a) python -m venv env
+   	b) .\env\Scripts\activate
+   	c) deactivate 
    1.2 pip install -r requirements.txt
    1.3 python app.py
    1.4 server running at http://127.0.0.1:5000
